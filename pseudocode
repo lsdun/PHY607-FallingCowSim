@@ -1,3 +1,8 @@
-First set the initial conditions:
+Define the constants:
 mass of cow: 1000 kg
+gravitational acceleration: 9.8 m/s/s
   
+Set the initial conditions:
+start time: 0 sec
+
+Create a function that returns the total force vector:
