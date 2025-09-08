@@ -4,9 +4,10 @@ gravitational acceleration: 9.8 m/s/s
   
 Set the initial conditions:
 start time: 0 sec
+create a set of initial position and velocity values
 
 Create a function that returns the total force vector:
-
-Test code
-
-test again
+The total force will be the sum of drag force and gravity
+Force of gravity = -mg
+Drag force = C*v^2 (negative?)
+Then return the total force
