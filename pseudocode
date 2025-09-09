@@ -22,3 +22,6 @@ Use the kinematic equation vf = v0 + a*t
     t will be the timestep
     v0 is given
 Then solve for new position: xf = x0 + v*t
+
+Write a function to calculate the total energy:
+    T = 1/2 * 
