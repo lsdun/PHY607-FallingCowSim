@@ -11,3 +11,4 @@ The total force will be the sum of drag force and gravity
 Force of gravity = -mg
 Drag force = C*v^2 (negative?)
 Then return the total force
+Test
