@@ -14,3 +14,11 @@ Then return the total force
 There is an x and y component of drag force:
 Drag force = - C*|v^2| = -C|v|^2 * (v/|v|) = C * |v| * v
 Then return the total force
+
+Create a function that updates the position and velocity of the cow some small time later:
+Use the kinematic equation vf = v0 + a*t
+    need to solve for a:
+    F = m / a -> a = F * m
+    t will be the timestep
+    v0 is given
+Then solve for new position: xf = x0 + v*t
