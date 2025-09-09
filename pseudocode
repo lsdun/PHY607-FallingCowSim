@@ -9,6 +9,10 @@ create a set of initial position and velocity values
 Create a function that returns the total force vector:
 The total force will be the sum of drag force and gravity
 Force of gravity = -mg
+<<<<<<< HEAD
 Drag force = C*v^2 (negative?)
 Then return the total force
 Test
+=======
+Drag force = - C*|v^2| = -C|v|^2 * (v/|v|) = C * |v| * v
+Then return the total force
